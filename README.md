@@ -1,3 +1,18 @@
+Install:
+- have docker, be logged in on commandline
+- build via: `docker build -t brahvi .`
+- use runscript to run image: `bin/run.sh`
+
+
+```python
+example other code
+def apple():
+    pass
+    
+```
+
+
+
 * use docker
     * database container - mount to actually save stuff in non-volatile format 
     * Flask container for handling web requests
@@ -23,3 +38,5 @@
     * jump in: docker run -it brahvi bin/bash
 
 * fuck yo couch
+
+
