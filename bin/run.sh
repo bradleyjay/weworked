@@ -14,5 +14,5 @@
 # include run cmmand to launch flask app (flask.py)
 docker run -it --rm \
     -v $(pwd):/app \
-    -p 5000:5000 \
+    -p 4000:80 \
     brahvi ./bin/startapp.sh 
