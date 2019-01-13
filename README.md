@@ -2,7 +2,8 @@ Install:
 - have docker, be logged in on commandline
 - build via: `docker build -t brahvi .`
 - use runscript to run image: `bin/run.sh`
-
+- in browser, go to http://localhost:5000/ -> "Hello World!"
+- Profit
 
 ```python
 example other code
