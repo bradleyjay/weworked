@@ -4,6 +4,10 @@
 #     brahvi bin/bash
 
 
+# docker run -it --rm \
+#     -v /Users/bradleythered/projectFiles/Python/projects/weworked:/app \
+#     brahvi /bin/bash
+
 docker run -it --rm \
-    -v /Users/bradleythered/projectFiles/Python/projects/weworked:/app \
+    -v $(pwd):/app \
     brahvi /bin/bash
