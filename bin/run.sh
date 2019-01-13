@@ -8,6 +8,11 @@
 #     -v /Users/bradleythered/projectFiles/Python/projects/weworked:/app \
 #     brahvi /bin/bash
 
+# docker run -it --rm \
+#     -v $(pwd):/app \
+#     brahvi /bin/bash
+# include run cmmand to launch flask app (flask.py)
 docker run -it --rm \
     -v $(pwd):/app \
-    brahvi /bin/bash
+    -p 5000:5000 \
+    brahvi ./bin/startapp.sh 
