@@ -1,23 +1,19 @@
-Install:
-- have docker, be logged in on commandline
+# App title
+
+## Install
+
+- have docker, be logged in on command-line
 - build via: `docker build -t brahvi .`
 - use runscript to run image: `bin/run.sh`
 - in browser, go to http://localhost:5000/ -> "Hello World!"
 - Profit
 
-```python
-example other code
-def apple():
-    pass
-    
-```
-
-
+## Notes
 
 * use docker
-    * database container - mount to actually save stuff in non-volatile format 
+    * database container - mount to actually save stuff in non-volatile format
     * Flask container for handling web requests
-        * mount volume there for the flask code 
+        * mount volume there for the flask code
     * figure out connectivity via docker network
     * launch with docker compose?
 
@@ -37,7 +33,3 @@ def apple():
         *docker login
     * then, to build it:  docker build -t brahvi . (brahvi is the (your choice) name of image that its about to build)
     * jump in: docker run -it brahvi bin/bash
-
-* fuck yo couch
-
-
